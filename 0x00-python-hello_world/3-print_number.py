@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 98
-print(f"{number} Battery street")
+try: print(f"{number} Battery street")
+except: print(f"Error: {type(number).__name__} type is not supported")
