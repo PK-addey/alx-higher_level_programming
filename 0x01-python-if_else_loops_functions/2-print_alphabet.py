@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-for alphabet in range(97, 123):
-    print(chr(alphabet), end='')
+print(f"{''.join(chr(i) for i in range(97, 123))}", end='') 
