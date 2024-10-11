@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for alphabet in "abcdefghijklmnopqrstuvwxyz":
-    print(f"{alphabet}", end="")
+for i in range(ord('a'), ord('z') + 1):
+    print('{:c}'.format(i), end='')
