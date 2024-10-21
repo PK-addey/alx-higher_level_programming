@@ -15,6 +15,11 @@ class Rectangle(Base):
         self.x = x
         self.y = y
 
+    def __str__(self):
+        """Return a string representation of the rectangle."""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(
+            self.id, self.x, self.y, self.width, self.height
+        )
 
     def area(self):
         """Return the area of the rectangle (width * height)."""
