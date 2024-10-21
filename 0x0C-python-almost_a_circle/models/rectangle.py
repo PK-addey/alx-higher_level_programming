@@ -18,13 +18,6 @@ class Rectangle(Base):
     def __init__(self, width, height, x=0, y=0, id=None):
         """
         Initializes the Rectangle object.
-
-        Args:
-            width (int): Rectangle width.
-            height (int): Rectangle height.
-            x (int, optional): x-coordinate. Defaults to 0.
-            y (int, optional): y-coordinate. Defaults to 0.
-            id (int, optional): Unique identifier. Defaults to None.
         """
         super().__init__(id)
         self.width = width
